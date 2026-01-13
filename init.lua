@@ -7,20 +7,6 @@ require('config.keymaps')
 require('catppuccin').setup()
 vim.cmd.colorscheme "catppuccin"
 
-require('config.treesitter').install({
-  'rust',
-  'c',
-  'cpp',
- 'javascript',
-  'python',
-  'csv',
-  'php',
-  'yaml',
-  'json',
-  'java',
-  'lua',
-})
-
 require('bufferline').setup({
   options={
     offsets={
