@@ -7,8 +7,7 @@ require('config.keymaps')
 require('catppuccin').setup()
 vim.cmd.colorscheme "catppuccin"
 
-require('bufferline').setup({
-  options={
+require('bufferline').setup({ options={
     offsets={
       {
         filetype='neo-tree',

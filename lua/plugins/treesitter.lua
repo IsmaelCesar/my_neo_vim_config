@@ -3,6 +3,7 @@ return {
   lazy = false,
   build = ':TSUpdate',
   enabled = true,
+  branch = 'main',
   config = function()
     require'nvim-treesitter'.setup {
 
@@ -14,9 +15,10 @@ return {
         "markdown",
         "css",
         "html",
-        "htmljango",
+        "htmldjango",
         "javascript",
         "java",
+        "ruby",
         "yaml",
         "json",
       }
