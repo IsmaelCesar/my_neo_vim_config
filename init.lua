@@ -14,6 +14,7 @@ require('bufferline').setup({ options={
         text = 'File Explorer',
         highlight = "Directory",
         text_align = "left",
+        separator = true,
       }
     },
     always_show_bufferline = true,
