@@ -3,7 +3,7 @@ require('config.options')
 require('config.globals')
 require('config.lazy')
 require('config.keymaps')
-
+require('lualine').setup()
 require('catppuccin').setup()
 vim.cmd.colorscheme "catppuccin"
 
