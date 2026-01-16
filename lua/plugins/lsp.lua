@@ -1,11 +1,6 @@
 return {
   {
    'neovim/nvim-lspconfig',
-    event = "LazyFile",
-    dependencies = {
-      "mason-org/mason.nvim",
-      { "mason-org/mason-lspconfig.nvim", config = function() end },
-    },
     config = function()
       vim.lsp.config('pylsp', {
         settings = { 
