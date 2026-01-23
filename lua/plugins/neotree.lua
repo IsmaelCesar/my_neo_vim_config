@@ -7,7 +7,8 @@ return  {
       "nvim-tree/nvim-web-devicons", -- optional, but recommended
     },
     keys = {
-      {"<leader>e", "<cmd>Neotree source=filesystem toggle=true <cr>", desc="Neotree filesystem"},
+      --{"<leader>e", "<cmd>Neotree source=filesystem toggle=true <cr>", desc="Neotree filesystem"},
+      {"<leader>e", function() Snacks.explorer() end , desc="Esplorer Snacks"},
       {"<leader>eb", "<cmd>Neotree source=buffers toggle=true <cr>", desc="Neotree buffers"},
       {"<leader>ef", "<cmd>Neotree action=focus <cr>", desc="Netoree focus"}
     },
