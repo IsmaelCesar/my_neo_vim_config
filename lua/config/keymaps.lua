@@ -1,5 +1,10 @@
 vim.g.mapleader=' '
 
+
+-- quality of life
+vim.keymap.set('n', '<C-s>', '<cmd>:w<cr>', {desc='quick save on normal mode'})
+vim.keymap.set('i', '<C-s>', '<cmd>:w<cr>', {desc='quick save on insert mode'})
+
 vim.keymap.set('n', '<space>bd', function()
       Snacks.bufdelete()
 end, {desc='Delete buffer'})
